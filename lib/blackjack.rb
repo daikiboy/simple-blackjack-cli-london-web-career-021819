@@ -23,11 +23,10 @@ def end_game(card_total)
 end
 
 def initial_round
-  card_one = deal_card
-  card_two = deal_card
-  cardtotal = card_one + card_two #code #initial_round here
-  display_card_total(cardtotal)
-  return cardtotal
+ dealcard = 1 + rand(11)
+ dealtwocards = dealcard + dealcard
+ 
+ 
 end
 
 def hit?(n)
