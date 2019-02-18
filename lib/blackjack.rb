@@ -36,6 +36,8 @@ def hit?(n)
    card_total
    elsif x == "h" 
    card_total + deal_card
+ else 
+   
    end # code hit? here
 end
 
