@@ -42,11 +42,9 @@ def hit?(n)
    end # code hit? here
 end
 
-def invalid_command
-  
 
 def invalid_command
-  # code invalid_command here
+   "Sorry, you hit #{cardtotal}"
 end
 
 #####################################################
