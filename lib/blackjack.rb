@@ -31,7 +31,8 @@ end
 
 def hit?(n)
   prompt_user
-  get_user_input = # code hit? here
+  get_user_input
+  if # code hit? here
 end
 
 def invalid_command
