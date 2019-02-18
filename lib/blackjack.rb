@@ -25,7 +25,8 @@ end
 def initial_round
  dealcard = 1 + rand(11)
  dealtwocards = dealcard + dealcard
- 
+ puts display_card_total(dealtwocards)
+ return display_card_total
  
 end
 
