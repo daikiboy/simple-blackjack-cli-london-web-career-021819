@@ -30,9 +30,10 @@ def initial_round
 end
 
 def hit?(n)
-  prompt_user
-  get_user_input
-  if # code hit? here
+ prompt_user 
+ x = get_user_input
+ if x == "s" 
+   put card# code hit? here
 end
 
 def invalid_command
