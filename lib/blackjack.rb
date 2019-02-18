@@ -34,13 +34,15 @@ def hit?(n)
  prompt_user 
  x = get_user_input
  if x == "s" 
-   card_total
+   cardtotal
    elsif x == "h" 
-   card_total + deal_card
+   cardtotal + deal_card
  else 
    invalid_command
    end # code hit? here
 end
+
+def invalid
 
 def invalid_command
   # code invalid_command here
